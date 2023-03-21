@@ -91,6 +91,10 @@ Split each "name" column value into a first and a last name, and place each in a
 Clean and then export the DataFrame as contacts.csv and save it to your GitHub repository.
 Check that your final DataFrame resembles the one in the following image:
 
+
+
+
+
 final contact DataFrame
 Create the Crowdfunding Database
 Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
@@ -110,6 +114,9 @@ Verify the table creation by running a SELECT statement for each table.
 Import each CSV file into its corresponding SQL table.
 
 Verify that each table has the correct data by running a SELECT statement for each.
+
+
+
 
 Hints
 To split each "category & sub-category" column value into "category" and "subcategory" column values, use df[["new_column1","new_column2"]] = df["column"].str.split(). Make sure to pass the correct parameters to the split() function.
